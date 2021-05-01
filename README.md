@@ -4,7 +4,7 @@ This makes working with these tools to calibrate ordinary cameras from video foo
 a bit difficult. 
 
 This repo contans a docker container with all the requirements to convert a video
-to a rosbag (single camera without IMU information).
+to a rosbag with black and white images for calibration (single camera without IMU information).
 
 # Usage
 -  Put a calibration video called `calibrate.mp4` into the `shared` directory of this repo
